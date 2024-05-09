@@ -6,7 +6,7 @@ import EditPost from './pages/EditPost';
 function App() {
   return (
     <div>
-      <h1>Lolz</h1>
+      <h1>Houses</h1>
       <Routes>
         <Route path="/" element={<PostLists />}></Route>
         <Route path="/post/:id" element={<Post />}></Route>
